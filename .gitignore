@@ -1,0 +1,18 @@
+# Datos (no se publican por licencia y tamaño)
+*.csv
+*.tsv
+*.xlsx
+*.txt
+!requirements.txt
+
+# Modelos entrenados y resultados
+*.pkl
+*.joblib
+modelo/
+tokenizer/
+estadisticas.json
+
+# Python / entorno
+__pycache__/
+.venv/
+.ipynb_checkpoints/
